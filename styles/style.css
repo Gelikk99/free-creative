@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "20 Kopeek Book";
+    src: url("../assets/fonts/20-kopeek-book.woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "20 Kopeek";
+    src: url("../assets/fonts/20-kopeek.woff2");
+    font-weight: 400;
+}
+
+.desk-notes {
+    font-family: "20 Kopeek", sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.tab-h2 {
+    font-family: "20 Kopeek Book", sans-serif;
+    font-size: 34px;
+    line-height: 37px;
+}
+
+.desk-body {
+    font-family: "20 Kopeek", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.image-wrapper {
+    position: relative;
+}
+
+.hero__image {
+    width: 100%;
+    height: 100%;
+}
+
+.hero__header {
+    position: absolute;
+    top: 31px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav__logo {
+    text-decoration: none;
+    margin-right: 22px;
+}
+
+.main-nav__description {
+    color: #FFFFFF;
+    display: inline-block;
+    max-width: 194px;
+}
+
+.contacts {
+    display: flex;
+    margin: 0;
+    gap: 23px;
+    list-style: none;
+}
+
+.contacts__item {
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts__item--rectangle {
+    padding: 7px 27px 7px 33px;
+}
+
+.contacts__item--circle {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-family: "20 Kopeek", sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.proposals {
+    position: absolute;
+    top: 344px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.proposals__title {
+    font-family: "20 Kopeek Book", sans-serif;
+    font-size: 55px;
+    line-height: 55px;
+    max-width: 560px;
+    margin-bottom: 30px;
+}
+
+.proposals__subtitle {
+    margin-bottom: 65px;
+}
+
+.proposals__buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    padding: 23px 47px;
+    border-radius: 40px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-button {
+    text-decoration: none;
+}
+
+.application-button, .portfolio-button {
+    background-color: white;
+    border: transparent;
+}
