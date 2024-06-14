@@ -6,52 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/adaptive.css">
+
 </head>
 <body>
 <section class="hero">
     <div class="image-wrapper">
-        <img class="hero__image" src="assets/images/hero-bg-image.png"  alt="На весах стоят продукты. Слева - молоко, справа-яйца и пакет с мукой.">
+        <img class="hero__image" src="assets/images/hero-bg-image.png"
+             alt="На весах стоят продукты. Слева - молоко, справа-яйца и пакет с мукой.">
     </div>
-    <header class="hero__header">
-        <div class="container">
-            <nav class="main-nav">
-                <div>
-                    <a class="main-nav__logo" href="#" >
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+                    <a class="nav__logo" href="#">
                         <img src="assets/images/logo.svg" alt="go to main">
                     </a>
-                    <span class="main-nav__description desk-notes">
+                    <span class="nav__description desk-notes">
                         Разрабатываем фирменные стили с 2009 года
                     </span>
-                </div>
-                <ul class="contacts">
-                    <li class="contacts__item contacts__item--rectangle">
-                        <a class="contacts__phone" href="tel:+74951563911">8 (495) 156-39-11</a>
-                    </li>
-                    <li class="contacts__item contacts__item--circle">
+            </nav>
+            <div class="contacts">
+                <address class="contacts__item">
+                    <a class="contacts__phone" href="tel:+74951563911">8 (495) 156-39-11</a>
+                </address>
+                <ul class="contacts__social-media social-media">
+                    <li class="social-media__item">
                         <svg width="7" height="14" viewBox="0 0 7 14" fill="none">
                             <use href="assets/icons/sprite.svg#social-facebook"></use>
                         </svg>
                     </li>
-                    <li class="contacts__item contacts__item--circle">
+                    <li class="social-media__item">
                         <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
                             <use href="assets/icons/sprite.svg#social-instagram"></use>
                         </svg>
                     </li>
                 </ul>
-            </nav>
+            </div>
         </div>
     </header>
-    <section class="proposals">
+    <div class="hero__proposals">
         <div class="container">
-        <p class="proposals__title">Вам нужен фирменный стиль или ребрендинг?</p>
-        <p class="proposals__subtitle tab-h2">Разработаем в срок от 10-ти дней</p>
-        <div class="proposals__buttons">
-            <a class="button portfolio-button desk-body" href="#">Портфолио</a>
-            <button class="button application-button desk-body">Оставить заявку</button>
+            <h1 class="visually-hidden">Креативное агентство "FREE"</h1>
+            <p class="hero__proposals-title">Вам нужен фирменный стиль или ребрендинг?</p>
+            <p class="hero__proposals-subtitle tab-h2">Разработаем в срок от 10-ти дней</p>
+            <div class="hero__proposals-buttons">
+                <a class="button portfolio-button desk-body" href="#">Портфолио</a>
+                <a class="button application-button desk-body" href="#">Оставить заявку</a>
+            </div>
         </div>
-        </div>
-    </section>
+    </div>
 </section>
 </body>
 </html>
