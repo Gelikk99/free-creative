@@ -18,19 +18,19 @@
 .notes {
     font-family: "20 Kopeek", sans-serif;
     font-size: 15px;
-    line-height: 19px;
+    line-height: 127%;
 }
 
 .h2 {
     font-family: "20 Kopeek Book", sans-serif;
     font-size: 34px;
-    line-height: 37px;
+    line-height: 109%;
 }
 
 .body {
     font-family: "20 Kopeek", sans-serif;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 139%;
 }
 
 .visually-hidden {
@@ -135,7 +135,7 @@
 .hero__proposals-title {
     font-family: "20 Kopeek Book", sans-serif;
     font-size: 55px;
-    line-height: 55px;
+    line-height: 100%;
     max-width: 560px;
     margin-bottom: 30px;
 }
