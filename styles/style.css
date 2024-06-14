@@ -89,7 +89,7 @@
 }
 
 .contacts__item {
-    padding: 7px 27px 7px 33px;
+    padding: 7px 30px;
     border-radius: 15px;
     font-style: normal;
     border: 1px solid var(--white-color, #FFFFFF);
