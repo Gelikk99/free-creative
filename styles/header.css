@@ -72,6 +72,11 @@
     .header-container {
         max-width: 920px;
     }
+
+    .nav__description {
+        font-size: 14px;
+        line-height: 128%;
+    }
 }
 
 @media screen and (max-width: 930px) {
@@ -82,6 +87,20 @@
     .burger-menu {
         display: block;
         z-index: 99;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .nav__description {
+        font-size: 12px;
+        line-height: 133%;
+        max-width: 184px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nav__description {
+        max-width: 106px;
     }
 }
 
