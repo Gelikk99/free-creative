@@ -44,7 +44,7 @@
 }
 
 .hero__controls-button {
-    background-color: var(--white-color, #FFFFFF);
+    background-color: var(--button-bg-color-light, #FFFFFF);
     border: transparent;
     text-decoration: none;
 }
@@ -92,7 +92,7 @@
     }
 
     .hero__content {
-        color: var(--white-color, #FFFFFF);
+        color: var(--add-text-color, #FFFFFF);
     }
 
     .hero__content-subtitle {
@@ -201,7 +201,7 @@
         margin-left: 35px;
     }
 
-    .button--portfolio {
+    .hero__controls-button:first-child {
         max-width: 171px;
     }
 

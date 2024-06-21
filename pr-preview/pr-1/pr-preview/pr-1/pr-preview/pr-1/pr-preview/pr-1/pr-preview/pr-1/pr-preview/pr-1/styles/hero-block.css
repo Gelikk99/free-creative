@@ -194,7 +194,6 @@
     .hero__controls {
         flex-direction: column-reverse;
         gap: 20px;
-        max-width: 250px;
     }
 
     .content-container {
@@ -203,9 +202,5 @@
 
     .button--portfolio {
         max-width: 171px;
-    }
-
-    .hero__content {
-        max-width: 250px;
     }
 }
