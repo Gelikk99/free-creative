@@ -1,9 +1,6 @@
 :root {
-    --button-bg-color-light: #FFFFFF;
-    --add-text-color: #FFFFFF;
-    --border-color-light: #FFFFFF;
-    --main-text--color: #000000;
-    --border-color-dark: #000000;
+    --white-color: #FFFFFF;
+    --black-color: #000000FF;
 }
 
 .notes {
@@ -53,8 +50,8 @@
     border-radius: 40px;
     cursor: pointer;
     box-sizing: border-box;
-    border: 1px solid var(--border-color-dark, #000000);
-    color: var(--main-text--color, #000000);
+    border: 1px solid var(--black-color, #000000FF);
+    color: var(--black-color, #000000FF);
     display: flex;
     align-items: center;
     justify-content: center;
