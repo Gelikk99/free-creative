@@ -68,38 +68,3 @@
     display: none;
 }
 
-@media screen and (max-width: 1150px) {
-    .header-container {
-        max-width: 920px;
-    }
-
-    .nav__description {
-        font-size: 14px;
-        line-height: 128%;
-    }
-}
-
-@media screen and (max-width: 930px) {
-    .contacts {
-        display: none;
-    }
-
-    .burger-menu {
-        display: block;
-        z-index: var(--ui-index-6);
-    }
-}
-
-@media screen and (max-width: 630px) {
-    .nav__description {
-        font-size: 12px;
-        line-height: 133%;
-        max-width: 184px;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .nav__description {
-        max-width: 106px;
-    }
-}
