@@ -3,7 +3,6 @@
     aspect-ratio: 16 / 9;
     display: flex;
     justify-content: flex-start;
-
 }
 
 .image-wrapper {
@@ -21,12 +20,10 @@
 .hero__content {
     align-self: center;
     flex-grow: 2;
-
 }
 
 .content-container {
     max-width: 1110px;
-
 }
 
 .hero__content-title {
@@ -65,7 +62,6 @@
         margin-bottom: 55px;
     }
 }
-
 
 @media (max-width: 768px) {
     .hero {
@@ -136,7 +132,6 @@
         max-width: 206px;
         padding: 14px 47px;
     }
-
 }
 
 @media (max-width: 360px) {
