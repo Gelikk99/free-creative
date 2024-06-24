@@ -4,6 +4,7 @@
     left: 0;
     right: 0;
     margin: auto;
+    color: var(--add-text-color, #FFFFFF);
 }
 
 .header-container {
@@ -17,7 +18,6 @@
 }
 
 .nav__description {
-    color: var(--white-color, #FFFFFF);
     display: inline-block;
     max-width: 194px;
 }
@@ -30,7 +30,7 @@
     padding: 7px 30px;
     border-radius: 15px;
     font-style: normal;
-    border: 1px solid var(--white-color, #FFFFFF);
+    border: 1px solid var(--border-color-light, #FFFFFF);
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@
     text-decoration: none;
     font-family: "20 Kopeek", sans-serif;
     font-size: 16px;
-    color: var(--white-color, #FFFFFF);
+    color: inherit;
 }
 
 .contacts__social-media {
@@ -54,7 +54,7 @@
 }
 
 .social-media__item {
-    border: 1px solid var(--white-color, #FFFFFF);
+    border: 1px solid var(--border-color-light, #FFFFFF);
     box-sizing: border-box;
     display: flex;
     align-items: center;

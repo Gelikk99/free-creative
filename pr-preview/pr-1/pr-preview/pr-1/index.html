@@ -33,19 +33,23 @@
                 </li>
             </ul>
         </div>
-        <div class="burger-menu">
+        <nav class="burger-menu">
             <svg width="30" height="18" viewBox="0 0 30 18" fill="none">
                 <use href="assets/icons/sprite.svg#burger-menu"></use>
             </svg>
-        </div>
+        </nav>
     </div>
 </header>
 <section class="hero">
-    <div class="image-wrapper">
-        <img class="hero__image" src="assets/images/hero/main-bg-image.png" alt="На весах стоят продукты. Слева - молоко, справа-яйца и пакет с мукой.">
-        <img class="hero__image--768px--360px" src="assets/images/hero/bg-image-768px-360px.png" alt="Доставщик молока с синим коробом и шлемом">
-        <img class="hero__image--576px" src="assets/images/hero/bg-image-576px.png" alt="Доставщик молока с синим коробом и шлемом">
-    </div>
+    <picture class="image-wrapper">
+        <source media="(max-width: 768px)"
+                srcset="assets/images/hero/bg-image.png" class="hero__image--small" alt="Доставщик молока с синим коробом и шлемом">
+        <source media="(max-width: 1200px)"
+                srcset="assets/images/hero/main-bg-image.png" class="hero__image" alt="На весах стоят продукты. Слева - молоко, справа-яйца и пакет с мукой.">
+        <img
+                src="assets/images/hero/main-bg-image.png"
+                alt="На весах стоят продукты. Слева - молоко, справа-яйца и пакет с мукой.">
+    </picture>
     <div class="hero__content content-container">
         <h1 class="visually-hidden">Креативное агентство "FREE"</h1>
         <p class="hero__content-title h1">Вам нужен фирменный стиль или ребрендинг?</p>

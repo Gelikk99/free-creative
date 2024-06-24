@@ -68,3 +68,50 @@
     display: none;
 }
 
+
+@media (max-width: 992px) {
+    .nav__description {
+        font-size: 14px;
+        line-height: 128%;
+    }
+
+    .contacts__item {
+        margin-right: 28px;
+    }
+
+    .contacts__social-media {
+        gap: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contacts {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+        z-index: var(--ui-index-6);
+        color: #f5f2f2;
+    }
+
+    .header-container {
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav__description {
+        font-size: 12px;
+        line-height: 133%;
+        max-width: 164px;
+    }
+}
+
+@media (max-width: 360px) {
+    .nav__description {
+        max-width: 106px;
+        line-height: 110%;
+    }
+}
+
