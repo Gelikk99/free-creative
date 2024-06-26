@@ -66,7 +66,7 @@
     }
 
     .hero__content {
-        color: var(--add-text-color, #FFFFFF);
+        color: var(--text-color, #FFFFFF);
     }
 
     .hero__content-subtitle {

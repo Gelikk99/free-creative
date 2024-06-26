@@ -22,10 +22,6 @@
     flex-grow: 2;
 }
 
-.content-container {
-    max-width: 1110px;
-}
-
 .hero__content-title {
     font-size: 55px;
     line-height: 100%;
@@ -71,10 +67,6 @@
 
     .hero__content {
         color: var(--add-text-color, #FFFFFF);
-    }
-
-    .content-container {
-        margin: 0;
     }
 
     .hero__content-subtitle {

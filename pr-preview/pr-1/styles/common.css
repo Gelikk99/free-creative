@@ -1,15 +1,9 @@
 :root {
     --button-bg-color-light: #FFFFFF;
-    --add-text-color: #FFFFFF;
+    --text-color: #FFFFFF;
     --border-color-light: #FFFFFF;
-    --main-text--color: #000000;
+    --main-text-color: #000000;
     --border-color-dark: #000000;
-    --ui-index-1: 1; /* Для наползающих элементов*/
-    --ui-index-2: 2; /* Для наползающих элементов в общем потоке*/
-    --ui-index-3: 3; /* Для масок*/
-    --ui-index-4: 4; /* Для сайдбаров*/
-    --ui-index-5: 5; /* Для модалок*/
-    --ui-index-6: 6; /* Для элементов, перекрывающих все*/
 }
 
 .notes {
@@ -60,7 +54,7 @@
     cursor: pointer;
     box-sizing: border-box;
     border: 1px solid var(--border-color-dark, #000000);
-    color: var(--main-text--color, #000000);
+    color: var(--main-text-color, #000000);
     display: flex;
     align-items: center;
     justify-content: center;
