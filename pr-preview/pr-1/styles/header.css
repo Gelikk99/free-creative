@@ -45,7 +45,7 @@
     color: inherit;
 }
 
-.contacts__social-media {
+.social-media {
     display: flex;
     margin: 0;
     gap: 23px;
@@ -78,7 +78,7 @@
         margin-right: 28px;
     }
 
-    .contacts__social-media {
+    .social-media {
         gap: 28px;
     }
 }
@@ -90,12 +90,17 @@
 
     .burger-menu {
         display: block;
-        z-index: var(--ui-index-6);
-        color: #f5f2f2;
     }
 
     .header-container {
         align-items: center;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
     }
 }
 
