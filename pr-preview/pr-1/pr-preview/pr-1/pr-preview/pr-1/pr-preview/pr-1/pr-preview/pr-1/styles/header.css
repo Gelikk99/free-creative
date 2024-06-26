@@ -86,7 +86,7 @@
 
     .burger-menu {
         display: block;
-        z-index: 99;
+        z-index: var(--ui-index-6);
     }
 }
 
