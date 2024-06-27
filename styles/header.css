@@ -68,6 +68,10 @@
     display: none;
 }
 
+.burger-menu__image {
+    fill: currentColor;
+}
+
 @media (max-width: 992px) {
     .nav__description {
         font-size: 14px;
