@@ -34,23 +34,27 @@
             </ul>
         </div>
         <nav class="burger-menu">
-            <svg width="30" height="18" viewBox="0 0 30 18" fill="none">
+            <svg class="burger-menu__image" width="30" height="18" viewBox="0 0 30 18" stroke="currentColor" fill="none">
                 <use href="assets/icons/sprite.svg#burger-menu"></use>
             </svg>
         </nav>
     </div>
 </header>
 <section class="hero">
+
     <picture class="image-wrapper">
         <source media="(max-width: 768px)"
-                srcset="assets/images/hero/bg-image.png" class="hero__image--small" alt="Доставщик молока с синим коробом и шлемом">
+                srcset="assets/images/hero/bg-image.png"
+                alt="Доставщик молока с синим коробом и шлемом">
         <source media="(max-width: 1200px)"
-                srcset="assets/images/hero/main-bg-image.png" class="hero__image" alt="На весах стоят продукты. Слева - молоко, справа-яйца и пакет с мукой.">
-        <img
-                src="assets/images/hero/main-bg-image.png"
+                srcset="assets/images/hero/main-bg-image.png"
                 alt="На весах стоят продукты. Слева - молоко, справа-яйца и пакет с мукой.">
+        <img class="hero__image"
+             src="assets/images/hero/main-bg-image.png"
+             alt="На весах стоят продукты. Слева - молоко, справа-яйца и пакет с мукой.">
     </picture>
-    <div class="hero__content content-container">
+
+    <div class="hero__content container content-container">
         <h1 class="visually-hidden">Креативное агентство "FREE"</h1>
         <p class="hero__content-title h1">Вам нужен фирменный стиль или ребрендинг?</p>
         <p class="hero__content-subtitle h2">Разработаем в срок от 10-ти дней</p>

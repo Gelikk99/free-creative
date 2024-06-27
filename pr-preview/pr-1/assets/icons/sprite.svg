@@ -12,9 +12,9 @@
               fill="white"/>
     </symbol>
     <symbol id="burger-menu">
-        <rect width="30" height="2" fill="white"/>
-        <rect y="8" width="30" height="2" fill="white"/>
-        <rect y="16" width="30" height="2" fill="white"/>
+        <rect width="30" height="2"/>
+        <rect y="8" width="30" height="2"/>
+        <rect y="16" width="30" height="2"/>
     </symbol>
 </svg>
 
