@@ -73,11 +73,6 @@
         margin-bottom: 78px;
     }
 
-    .hero__controls {
-        flex-direction: column;
-        gap: 42px;
-    }
-
     .hero__controls-button {
         max-width: 214px;
     }
@@ -111,8 +106,8 @@
     }
 
     .hero__controls {
-        gap: 20px;
-        max-width: 250px;
+        flex-direction: column;
+        gap: 42px;
     }
 
     .hero__controls-button {
@@ -124,7 +119,7 @@
 
 @media (max-width: 360px) {
     .hero {
-        height: 100vh;
+        min-height: 100vh;
     }
 
     .hero__content-title {
