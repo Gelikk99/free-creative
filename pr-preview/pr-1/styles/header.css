@@ -45,7 +45,7 @@
     color: var(--white-color, #FFFFFF);
 }
 
-.contacts__social-media {
+.social-media {
     display: flex;
     margin: 0;
     gap: 23px;
